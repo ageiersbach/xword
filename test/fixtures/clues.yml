@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  word_id: 1
+  definition: MyString
+
+two:
+  word_id: 1
+  definition: MyString
