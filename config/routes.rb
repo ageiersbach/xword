@@ -1,4 +1,6 @@
 Xword::Application.routes.draw do
+  resources :puzzles
+
   resources :clues
 
 
