@@ -1,5 +1,4 @@
 class PuzzlesController < ApplicationController
-  before_action :set_puzzle, only: [:show, :edit, :update, :destroy]
 
   # GET /puzzles
   def index
