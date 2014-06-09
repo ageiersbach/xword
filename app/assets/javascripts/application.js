@@ -13,7 +13,6 @@
 //= require angular
 //= require angular-resource
 //= require angular-route
-//= require word_games
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
