@@ -1,5 +1,13 @@
 !!!
 %html{"ng-app" => "myTinyApp"}
-  %p{"ng-controller" => "MainCtrl"}
-    The current time is {{ currentTime | date:'h:mm:ss a' }}
+  %body
+    %h1 AngularJS-Rails Demo with XWord
+    %div#puzzle
+    %div#words
+      %h2
+        Words
+      %div{"ng-controller" => "MainCtrl"}
+        %ul
+          %li{"ng-repeat" => "word in words"}
+            {{word.name}}
 
