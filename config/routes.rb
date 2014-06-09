@@ -1,5 +1,5 @@
 Xword::Application.routes.draw do
-  root :to => 'puzzles#index'
+  root :to => 'puzzles#new'
   resources :puzzles
   resources :clues
   resources :words
