@@ -19,6 +19,16 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
+group :test do
+  gem 'factory_girl_rails'
+  gem 'fuubar'
+  gem 'fuubar-cucumber'
+  gem 'capybara'
+  gem 'database_cleaner', '1.0.1'
+  gem 'faker'
+  gem 'shoulda-matchers'
+end
+
 group :development, :test do
   gem 'rspec-rails'
 end
