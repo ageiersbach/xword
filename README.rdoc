@@ -6,13 +6,14 @@ A Rails Crossword Maker with AngularJS
 
 Create AngularJS Rails Demo Using XWord
 
-  2. Add form to create word & clue pair
   3. Create puzzle grid
   4. Add Across/Down button
   5. Add ability to drag word onto puzzle grid
+  5b. Add clues (across / down #)
   6. Show word conflicts
   7. Start testing this thing :P
 
 === Done:
 
   1. Show list of words
+  2. Add form to create word 
