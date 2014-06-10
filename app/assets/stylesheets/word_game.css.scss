@@ -2,7 +2,24 @@ h1 {
   text-align: center;
 }
 #puzzle {
-  width: 75%;
+  width: 70%;
+  float: left;
+  padding-left: 20px;
+}
+
+#puzzle .across {
+  float: left;
+  margin: 1px;
+}
+
+#puzzle .down {
+  clear: left;
+}
+
+#puzzle .box {
+  height: 30px;
+  width: 30px;
+  border: solid 1px black;
 }
 
 #words { 

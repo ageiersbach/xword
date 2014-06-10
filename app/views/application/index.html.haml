@@ -3,7 +3,7 @@
   %head
   %body{"ng-controller" => "MainCtrl"}
     %h1 AngularJS-Rails Demo with XWord
-    %div#puzzle
+    = render "grid", size: 20 
     %div#words
       %h2
         Words
