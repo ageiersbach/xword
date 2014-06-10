@@ -1,13 +1,19 @@
 !!!
 %html{"ng-app" => "myTinyApp"}
-  %body
+  %head
+  %body{"ng-controller" => "MainCtrl"}
     %h1 AngularJS-Rails Demo with XWord
     %div#puzzle
     %div#words
       %h2
         Words
-      %div{"ng-controller" => "MainCtrl"}
+      %div
         %ul
           %li{"ng-repeat" => "word in words"}
-            {{word.name}}
-
+            %span.drag-me
+              {{word.name}}
+      %div
+        %form#addWord
+          %input{:type => "text", "ng-model" => "newWord.name"}
+          %button{"ng-click" => "addWord(newWord)"}
+            Add word

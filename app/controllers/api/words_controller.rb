@@ -11,7 +11,7 @@ module Api
     end
 
     def new
-      respond_with render json: Word.new
+      respond_with Word.new
     end
 
     def edit
