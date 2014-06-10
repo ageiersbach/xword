@@ -11,4 +11,8 @@ angular
       $scope.newWord = new Word();
     };
 
+    $scope.placeWord = function() {
+      console.log("word dropped!");
+    };
+
   }]);

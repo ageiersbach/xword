@@ -2,5 +2,5 @@
   - size.times do |x|
     %div{:id => "gridx-#{x}", :class => "down"}
       - size.times do |y|
-        %div{:id => "gridy-#{y}", :class => "across box"}
+        %div{:id => "gridy-#{y}", :class => "across box", :droppable => true, :drop => "placeWord()"}
       

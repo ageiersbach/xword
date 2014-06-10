@@ -10,7 +10,7 @@
       %div
         %ul
           %li{"ng-repeat" => "word in words"}
-            %span{:draggable => true}
+            %span{:id => "{{word.id}}", :draggable => true}
               {{word.name}}
       %div
         %form#addWord
