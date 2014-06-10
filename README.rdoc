@@ -6,14 +6,21 @@ A Rails Crossword Maker with AngularJS
 
 Create AngularJS Rails Demo Using XWord
 
-  4 Add ability to drag word onto puzzle grid (down)
-  5 Add Across/Down button, and add ability to drag words for either direction
-  5b. Add clues (across / down #)
-  6. Show word conflicts
-  7. Start testing this thing :P
+  5. Add Across/Down button
+  5b. Place words on grid according to set direction
+  6. Add clues (across / down #)
+  7. Show word conflicts
+  8. Start testing this thing :P
 
 === Done:
 
   1. Show list of words
   2. Add form to create word 
   3. Create puzzle grid
+  4 Add ability to drag word onto puzzle grid
+
+=== Resources:
+  
+  * [Native Drag & Drop In AngularJS](http://blog.parkji.co.uk/2013/08/11/native-drag-and-drop-in-angularjs.html)
+  * [Egghead.io Video Tutorials](https://egghead.io/technologies/angularjs)
+
