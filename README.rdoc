@@ -1,3 +1,19 @@
 == XWord
 
-A Rails Crossword Generator
+A site for creating, sharing, and solving crosswords built with the Phoenix framework for Elixir and EmberJS
+
+NB: This is currently a work in progress :)
+
+==TODO
+
+- Setup new Phoenix app
+- Setup EmberJS app
+- Docker config for development environment
+
+- Add "Create Puzzle" page
+- Add "Solve Puzzle" page
+- Add featured puzzle to front page
+
+==Development Setup
+
+- Install Docker
