@@ -6,13 +6,14 @@ RUN apt-get update && apt-get install -y \
   node                \
   npm                 \
   rebar               \
+  postgresql-client   \
   wget
 
 #use en_US.UTF-8 to avoid warning from elixir
 #RUN locale-gen en_US.UTF-8
 # Configure locales
-ENV LANG=en_US.UTF-8
-ENV LANGUAGE=en_US:en
+#ENV LANG en_US.UTF-8
+#ENV LANGUAGE en_US:en
 
 RUN yes | mix local.hex
 
@@ -20,5 +21,8 @@ RUN yes | mix local.hex
 RUN yes | mix archive.install https://github.com/phoenixframework/phoenix/releases/download/v0.15.0/phoenix_new-0.15.0.ez
 
 WORKDIR xword
+RUN mkdir backend
+
+ADD ./backend/**/* backend/
 
 CMD /bin/bash

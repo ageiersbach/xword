@@ -1,0 +1,10 @@
+#!/bin/bash
+## Creates backend server with the name 'phoenix'
+
+docker run --name phoenix --link db:db -it xword
+
+#docker run --name phoenix --link db:db -it 'xword' sh -c 'exec psql -h "$DB_PORT_5432_TCP_ADDR" -p "$DB_PORT_5432_PORT" -U postgres'
+
+#sh -c 'exec psql -h "$POSTGRES_PORT_5432_TCP_ADDR" -p "$POSTGRES_PORT_5432_TCP_PORT" -U postgres'
+
+#docker run --link db:postgres postgres sh -c 'exec psql -h "$POSTGRES_PORT_5432_TCP_ADDR" -p "$POSTGRES_PORT_5432_TCP_PORT" -U postgres' -t -i 'xword'
